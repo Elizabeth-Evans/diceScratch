@@ -1,0 +1,95 @@
+body{
+  background-color: pink;
+}
+.diceContainer{
+  display: inline-block;
+  margin-left: 30%;
+  transform: scale(.5);
+  transform-origin: 10% 10%;
+}
+
+.container{
+  margin:50px auto;
+  width:200px;
+  height:200px;
+  perspective:600px;
+  display: inline-block;
+  margin-top: -70px;
+  margin-bottom: -50px;
+  padding-left: 20px;
+  padding-right: 40px;
+}
+.containerB{
+  margin:50px auto;
+  width:200px;
+  height:200px;
+  perspective:600px;
+  display: block;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+#cube , #cube2 , #cube3 , #cube4 , #cube5 {
+  position:relative;
+  transform-style: preserve-3d;
+  transition: transform .5s;
+/*keep at 100% to keep dice in place when rotating*/
+  width: 100%;
+  height: 100%;
+}
+
+
+#cube div , #cube2 div , #cube3 div , #cube4 div , #cube5 div{
+  border:1px solid #ccc;
+  border-radius:30px;
+  width:198px;
+  height:198px;
+  position:absolute;
+  background-image: url(http://1.bp.blogspot.com/-8oHADm0XlWY/UV72I6qYX_I/AAAAAAAAD8U/83sdKrWjjRg/s1600/Dice.png);
+  background-repeat:no-repeat;
+  opacity:.75;
+}
+
+.front  { transform: rotateY(   0deg ) translateZ( 100px ); background-position: -12px -12px; }
+.back   { transform: rotateX( 180deg ) translateZ( 100px ); background-position: -463px -239px; }
+.right  { transform: rotateY(  90deg ) translateZ( 100px ); background-position: -236px -12px; }
+.left   { transform: rotateY( -90deg ) translateZ( 100px ); background-position: -241px -235px; }
+.top    { transform: rotateX(  90deg ) translateZ( 100px ); background-position: -459px -12px; }
+.bottom { transform: rotateX( -90deg ) translateZ( 100px ); background-position: -12px -235px; }
+
+/*adjusted cube numbers to represent the face values*/
+/*first dice*/
+#cube.showOne1 { transform: translateZ( -100px ) rotateY(    0deg ); }
+#cube.showOne6 { transform: translateZ( -100px ) rotateX( -180deg ); }
+#cube.showOne2 { transform: translateZ( -100px ) rotateY(  -90deg ); }
+#cube.showOne5 { transform: translateZ( -100px ) rotateY(   90deg ); }
+#cube.showOne3 { transform: translateZ( -100px ) rotateX(  -90deg ); }
+#cube.showOne4 { transform: translateZ( -100px ) rotateX(   90deg ); }
+/*second dice*/
+#cube2.showTwo1 { transform: translateZ( -100px ) rotateY(    0deg ); }
+#cube2.showTwo6 { transform: translateZ( -100px ) rotateX( -180deg ); }
+#cube2.showTwo2 { transform: translateZ( -100px ) rotateY(  -90deg ); }
+#cube2.showTwo5 { transform: translateZ( -100px ) rotateY(   90deg ); }
+#cube2.showTwo3 { transform: translateZ( -100px ) rotateX(  -90deg ); }
+#cube2.showTwo4 { transform: translateZ( -100px ) rotateX(   90deg ); }
+/*third dice*/
+#cube3.showThree1 { transform: translateZ( -100px ) rotateY(    0deg ); }
+#cube3.showThree6 { transform: translateZ( -100px ) rotateX( -180deg ); }
+#cube3.showThree2 { transform: translateZ( -100px ) rotateY(  -90deg ); }
+#cube3.showThree5 { transform: translateZ( -100px ) rotateY(   90deg ); }
+#cube3.showThree3 { transform: translateZ( -100px ) rotateX(  -90deg ); }
+#cube3.showThree4 { transform: translateZ( -100px ) rotateX(   90deg ); }
+/*fourth dice*/
+#cube4.showFour1 { transform: translateZ( -100px ) rotateY(    0deg ); }
+#cube4.showFour6 { transform: translateZ( -100px ) rotateX( -180deg ); }
+#cube4.showFour2 { transform: translateZ( -100px ) rotateY(  -90deg ); }
+#cube4.showFour5 { transform: translateZ( -100px ) rotateY(   90deg ); }
+#cube4.showFour3 { transform: translateZ( -100px ) rotateX(  -90deg ); }
+#cube4.showFour4 { transform: translateZ( -100px ) rotateX(   90deg ); }
+/*fifth dice*/
+#cube5.showFive1 { transform: translateZ( -100px ) rotateY(    0deg ); }
+#cube5.showFive6 { transform: translateZ( -100px ) rotateX( -180deg ); }
+#cube5.showFive2 { transform: translateZ( -100px ) rotateY(  -90deg ); }
+#cube5.showFive5 { transform: translateZ( -100px ) rotateY(   90deg ); }
+#cube5.showFive3 { transform: translateZ( -100px ) rotateX(  -90deg ); }
+#cube5.showFive4 { transform: translateZ( -100px ) rotateX(   90deg ); }
