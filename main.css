@@ -57,7 +57,7 @@ body{
 .top    { transform: rotateX(  90deg ) translateZ( 100px ); background-position: -459px -12px; }
 .bottom { transform: rotateX( -90deg ) translateZ( 100px ); background-position: -12px -235px; }
 
-/*adjusted cube numbers to represent the face values*/
+/*adjusted cube numbers*/
 /*first dice*/
 #cube.showOne1 { transform: translateZ( -100px ) rotateY(    0deg ); }
 #cube.showOne6 { transform: translateZ( -100px ) rotateX( -180deg ); }
@@ -66,30 +66,30 @@ body{
 #cube.showOne3 { transform: translateZ( -100px ) rotateX(  -90deg ); }
 #cube.showOne4 { transform: translateZ( -100px ) rotateX(   90deg ); }
 /*second dice*/
-#cube2.showTwo1 { transform: translateZ( -100px ) rotateY(    0deg ); }
-#cube2.showTwo6 { transform: translateZ( -100px ) rotateX( -180deg ); }
-#cube2.showTwo2 { transform: translateZ( -100px ) rotateY(  -90deg ); }
-#cube2.showTwo5 { transform: translateZ( -100px ) rotateY(   90deg ); }
-#cube2.showTwo3 { transform: translateZ( -100px ) rotateX(  -90deg ); }
-#cube2.showTwo4 { transform: translateZ( -100px ) rotateX(   90deg ); }
+#cube2.showTwo2 { transform: translateZ( -100px ) rotateY(    0deg ); }
+#cube2.showTwo1 { transform: translateZ( -100px ) rotateX( -180deg ); }
+#cube2.showTwo3 { transform: translateZ( -100px ) rotateY(  -90deg ); }
+#cube2.showTwo6 { transform: translateZ( -100px ) rotateY(   90deg ); }
+#cube2.showTwo4 { transform: translateZ( -100px ) rotateX(  -90deg ); }
+#cube2.showTwo5 { transform: translateZ( -100px ) rotateX(   90deg ); }
 /*third dice*/
-#cube3.showThree1 { transform: translateZ( -100px ) rotateY(    0deg ); }
-#cube3.showThree6 { transform: translateZ( -100px ) rotateX( -180deg ); }
-#cube3.showThree2 { transform: translateZ( -100px ) rotateY(  -90deg ); }
-#cube3.showThree5 { transform: translateZ( -100px ) rotateY(   90deg ); }
-#cube3.showThree3 { transform: translateZ( -100px ) rotateX(  -90deg ); }
-#cube3.showThree4 { transform: translateZ( -100px ) rotateX(   90deg ); }
+#cube3.showThree6 { transform: translateZ( -100px ) rotateY(    0deg ); }
+#cube3.showThree5 { transform: translateZ( -100px ) rotateX( -180deg ); }
+#cube3.showThree1 { transform: translateZ( -100px ) rotateY(  -90deg ); }
+#cube3.showThree4 { transform: translateZ( -100px ) rotateY(   90deg ); }
+#cube3.showThree2 { transform: translateZ( -100px ) rotateX(  -90deg ); }
+#cube3.showThree3 { transform: translateZ( -100px ) rotateX(   90deg ); }
 /*fourth dice*/
-#cube4.showFour1 { transform: translateZ( -100px ) rotateY(    0deg ); }
-#cube4.showFour6 { transform: translateZ( -100px ) rotateX( -180deg ); }
-#cube4.showFour2 { transform: translateZ( -100px ) rotateY(  -90deg ); }
-#cube4.showFour5 { transform: translateZ( -100px ) rotateY(   90deg ); }
-#cube4.showFour3 { transform: translateZ( -100px ) rotateX(  -90deg ); }
-#cube4.showFour4 { transform: translateZ( -100px ) rotateX(   90deg ); }
+#cube4.showFour3 { transform: translateZ( -100px ) rotateY(    0deg ); }
+#cube4.showFour2 { transform: translateZ( -100px ) rotateX( -180deg ); }
+#cube4.showFour4 { transform: translateZ( -100px ) rotateY(  -90deg ); }
+#cube4.showFour1 { transform: translateZ( -100px ) rotateY(   90deg ); }
+#cube4.showFour5 { transform: translateZ( -100px ) rotateX(  -90deg ); }
+#cube4.showFour6 { transform: translateZ( -100px ) rotateX(   90deg ); }
 /*fifth dice*/
-#cube5.showFive1 { transform: translateZ( -100px ) rotateY(    0deg ); }
-#cube5.showFive6 { transform: translateZ( -100px ) rotateX( -180deg ); }
-#cube5.showFive2 { transform: translateZ( -100px ) rotateY(  -90deg ); }
-#cube5.showFive5 { transform: translateZ( -100px ) rotateY(   90deg ); }
-#cube5.showFive3 { transform: translateZ( -100px ) rotateX(  -90deg ); }
-#cube5.showFive4 { transform: translateZ( -100px ) rotateX(   90deg ); }
+#cube5.showFive4 { transform: translateZ( -100px ) rotateY(    0deg ); }
+#cube5.showFive3 { transform: translateZ( -100px ) rotateX( -180deg ); }
+#cube5.showFive5 { transform: translateZ( -100px ) rotateY(  -90deg ); }
+#cube5.showFive2 { transform: translateZ( -100px ) rotateY(   90deg ); }
+#cube5.showFive6 { transform: translateZ( -100px ) rotateX(  -90deg ); }
+#cube5.showFive1 { transform: translateZ( -100px ) rotateX(   90deg ); }
