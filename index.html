@@ -9,14 +9,18 @@
   <link rel="stylesheet" href="main.css" media="screen" title="no title" charset="utf-8">
 </head>
   <body>
+    <div class = "bigDiv">
     <h1> Dice!!</h1>
     <!-- BIG thanks to https://codepen.io/pukidepa/pen/ebgHy for helping me create the dice and for the cool background image of the dice!!!! I don't know you, but I love you forever!! -->
+    <!-- BIG thanks to http://www.hongkiat.com/blog/css3-bounce-effect/ for an awesome bounce effect demo!! Located in main.css-->
+
+    <div id = "cupLift" class= "cup"></div>
 
       <div class="diceContainer">
     <!-- first dice -->
 
-          <div class = "container">
-            <div id = "cube" class= "show1">
+          <div class = "containerA">
+            <div id = "cube" class= "bounce">
               <div class = "top"></div>
               <div class = "front"></div>
               <div class = "left"></div>
@@ -26,8 +30,8 @@
             </div>
           </div>
       <!-- second dice -->
-        <div class = "container">
-          <div id = "cube2" class= "shows">
+        <div class = "containerB">
+          <div id = "cube2" class= "bounce">
             <div class = "top"></div>
             <div class = "front"></div>
             <div class = "left"></div>
@@ -36,10 +40,10 @@
             <div class = "bottom"></div>
           </div>
         </div>
-
+        <br/>
       <!-- third dice   -->
-      <div class = "containerB">
-        <div id = "cube3" class= "showss">
+      <div class = "containerC">
+        <div id = "cube3" class= "bounce">
           <div class = "top"></div>
           <div class = "front"></div>
           <div class = "left"></div>
@@ -50,8 +54,8 @@
       </div>
 
       <!-- fourth dice -->
-      <div class = "container">
-        <div id = "cube4" class= "showsss">
+      <div class = "containerD">
+        <div id = "cube4" class= "bounce">
           <div class = "top"></div>
           <div class = "front"></div>
           <div class = "left"></div>
@@ -62,8 +66,8 @@
       </div>
 
       <!-- fifth dice -->
-      <div class = "container">
-        <div id = "cube5" class= "showssss">
+      <div class = "containerE">
+        <div id = "cube5" class= "bounce">
           <div class = "top"></div>
           <div class = "front"></div>
           <div class = "left"></div>
@@ -75,8 +79,13 @@
 
 <!-- all dice container close       -->
     </div>
+<!-- closing bigDiv -->
+  </div>
+
+
     <script src="bower_components/underscore/underscore.js" charset="utf-8"></script>
       <script src="bower_components/jquery/dist/jquery.js" charset="utf-8"></script>
 <script src="main.js" charset="utf-8"></script>
+
   </body>
 </html>
