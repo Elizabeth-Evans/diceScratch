@@ -5,7 +5,7 @@
 // dice one
 var faceOne=1;
 var queryParam = 6;
-var spinCount = 9;
+var spinCount = 1;
 var currentSpinCount = 0;
 var showOne = function() {
  $('#cube').attr('class', 'showOne'+faceOne);
@@ -23,9 +23,9 @@ var timer1=setInterval(showOne  , 500);
 
 // dice two
 
-var faceTwo=5;
+var faceTwo=1;
 var queryParam2 = 4;
-var spinCount2 = 5;
+var spinCount2 = 2;
 var currentSpinCount2 = 0;
 var showTwo = function() {
   $('#cube2').attr('class', 'showTwo'+faceTwo);
@@ -44,9 +44,9 @@ var timer2=setInterval("showTwo()", 500);
 
 // third dice
 
-var faceThree=4;
+var faceThree=1;
 var queryParam3 = 6;
-var spinCount3 = 6;
+var spinCount3 = 2;
 var currentSpinCount3 = 0;
 
 var showThree = function() {
@@ -66,9 +66,9 @@ var timer3=setInterval("showThree()", 500);
 
 // fourth dice
 
-var faceFour=2;
+var faceFour=1;
 var queryParam4 = 3;
-var spinCount4 = 3;
+var spinCount4 = 2;
 var currentSpinCount4 = 0;
 
 var showFour = function() {
@@ -88,9 +88,9 @@ var timer4=setInterval("showFour()", 500);
 
 // fifth dice
 
-var faceFive=6;
+var faceFive=1;
 var queryParam5 = 2;
-var spinCount5 = 8;
+var spinCount5 = 2;
 var currentSpinCount5 = 0;
 
 var showFive = function() {
@@ -107,6 +107,20 @@ var showFive = function() {
  };
 
 var timer5 = setInterval(showFive, 500);
+
+
+
+$(".cupDrop").click(function(){
+    var div = $("div");
+    div.animate({height: '300px', opacity: '0.4'}, "slow");
+});
+
+
+
+$('.cup2').stop(true, true).delay(2100).animate({
+     marginTop: -1000,
+   }, 1400)
+
 
 // cup lifting
 // cup lifts to show dice and then drops
