@@ -110,15 +110,24 @@ var timer5 = setInterval(showFive, 500);
 
 
 
-$(".cupDrop").click(function(){
-    var div = $("div");
-    div.animate({height: '300px', opacity: '0.4'}, "slow");
+// $(".cup").click(function(){
+//     var div = $("div");
+//     div.animate({marginTop: '-40px'}, "slow");
+// });
+$(window).keydown(function(e) {
+    if (e.which === 32) {
+      $('.cup').animate({opacity:.4}, 10);
+    }
 });
-
-
+$(window).keyup(function(e) {
+    if (e.which === 32) {
+      $('.cup').animate({opacity:1}, 10);
+    }
+});
 
 $('.cup2').stop(true, true).delay(2100).animate({
      marginTop: -1000,
+
    }, 1400)
 
 
