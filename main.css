@@ -1,5 +1,13 @@
 body{
-  background-color: pink;
+
+}
+.score{
+  width:20%;
+  height:200px;
+  display: inline-block;
+  border: 2px black solid;
+  margin-left: 60%;
+  position:absolute;
 }
 /*.bigDiv{
   width:50%;
@@ -65,7 +73,7 @@ body{
 .diceContainer{
   display: inline-block;
   margin-left: 20%;
-  margin-top: -18%;
+  margin-top: -15%;
   transform: scale(.25);
   transform-origin: 10% 10%;
   position:absolute;
@@ -111,26 +119,26 @@ body{
 
 
 @-webkit-keyframes bounce{
-  0% {	-webkit-transform:translateY(-240%) translateX(-900%) rotateX(100deg)  rotateZ(100deg);}
-  5% { -webkit-transform:translateY(-50%) translateX(-800%) rotateX(200deg)  rotateZ(110deg);}
-  10%{-webkit-transform:translateY(-235%) translateX(-700%) rotateX(300deg) rotateZ(300deg);}
-  15% {-webkit-transform:translateY(-22%) translateX(-600%) rotateX(400deg)  rotateZ(310deg);}
-  20% {-webkit-transform:translateY(-50%) translateX(-500%) rotateX(500deg)  rotateZ(320deg);}
-  25% {	-webkit-transform:translateY(-100%) translateX(-400%) rotateX(600deg)  rotateZ(400deg);}
-  30% {	-webkit-transform:translateY(0%) translateX(-300%) rotateX(700deg)  rotateZ(500deg);}
-  35% {	-webkit-transform:translateY(-100%) translateX(-200%) rotateX(800deg)  rotateZ(510deg);}
-  40% {	-webkit-transform:translateY(0%) translateX(-100%) rotateX(900deg)  rotateZ(600deg);}
-  45% {	-webkit-transform:translateY(-70%) translateX(-50%) rotateX(1000deg) rotateZ(610deg);}
-  50% {  -webkit-transform:translateY(0%) translateX(0%) rotateX(1100deg)  rotateZ(620deg);}
-  55%{  -webkit-transform:translateY(-70%) translateX(0%) rotateX(1200deg)  rotateZ(630deg);}
-  60%{  -webkit-transform:translateY(0%) translateX(0%) rotateX(1300deg)  rotateZ(640deg);}
-  65%{  -webkit-transform:translateY(-70%) translateX(0%) rotateX(1400deg)  rotateZ(650deg);}
-  70%{  -webkit-transform:translateY(0%) translateX(0%) rotateX(1500deg)  rotateZ(660deg);}
-  75% {  -webkit-transform:translateY(0%) translateX(0%) rotateX(1600deg)  rotateZ(670deg);}
-  80%{  -webkit-transform:translateY(0%) translateX(0%) rotateX(1700deg)  rotateZ(680deg);}
-  85%{  -webkit-transform:translateY(0%) translateX(0%) rotateX(1800deg)  rotateZ(690deg);}
-  90%{  -webkit-transform:translateY(0%) translateX(0%) rotateX(1900deg)  rotateZ(700deg);}
-  95%{  -webkit-transform:translateY(0%) translateX(0%) rotateX(2000deg)  rotateZ(710deg);}
+  0% {	-webkit-transform:translateY(-350%) translateX(-900%) rotateX(100deg)  rotateZ(100deg);}
+  5% { -webkit-transform:translateY(0%) translateX(-700%) rotateX(200deg)  rotateZ(110deg);}
+  10%{-webkit-transform:translateY(-250%) translateX(-500%) rotateX(300deg) rotateZ(300deg);}
+  15% {-webkit-transform:translateY(0%) translateX(-450%) rotateX(400deg)  rotateZ(310deg);}
+  20% {-webkit-transform:translateY(-100%) translateX(-400%) rotateX(500deg)  rotateZ(320deg);}
+  25% {	-webkit-transform:translateY(0%) translateX(-350%) rotateX(600deg)  rotateZ(400deg);}
+  30% {	-webkit-transform:translateY(-90%) translateX(-300%) rotateX(700deg)  rotateZ(500deg);}
+  35% {	-webkit-transform:translateY(0%) translateX(-250%) rotateX(800deg)  rotateZ(510deg);}
+  40% {	-webkit-transform:translateY(-80%) translateX(-200%) rotateX(900deg)  rotateZ(600deg);}
+  45% {	-webkit-transform:translateY(0%) translateX(-150%) rotateX(1000deg) rotateZ(610deg);}
+  50% {  -webkit-transform:translateY(-70%) translateX(-100%) rotateX(1100deg)  rotateZ(620deg);}
+  55%{  -webkit-transform:translateY(0%) translateX(-95%) rotateX(1200deg)  rotateZ(630deg);}
+  60%{  -webkit-transform:translateY(-60%) translateX(-90%) rotateX(1300deg)  rotateZ(640deg);}
+  65%{  -webkit-transform:translateY(0%) translateX(-80%) rotateX(1400deg)  rotateZ(650deg);}
+  70%{  -webkit-transform:translateY(-50%) translateX(-70%) rotateX(1500deg)  rotateZ(660deg);}
+  75% {  -webkit-transform:translateY(0%) translateX(-60%) rotateX(1600deg)  rotateZ(670deg);}
+  80%{  -webkit-transform:translateY(-40%) translateX(-50%) rotateX(1700deg)  rotateZ(680deg);}
+  85%{  -webkit-transform:translateY(0%) translateX(-40%) rotateX(1800deg)  rotateZ(690deg);}
+  90%{  -webkit-transform:translateY(-30%) translateX(-30%) rotateX(1900deg)  rotateZ(700deg);}
+  95%{  -webkit-transform:translateY(0%) translateX(-20%) rotateX(2000deg)  rotateZ(710deg);}
   100%{  -webkit-transform:translateY(0%) translateX(0%) rotateX(2500deg)  rotateZ(720deg);}
 }
 
@@ -138,12 +146,12 @@ body{
 
 
 #cube div , #cube2 div , #cube3 div , #cube4 div , #cube5 div{
-  border:1px solid #ccc;
+  border:1px solid #806000;
   border-radius:30px;
   width:198px;
   height:198px;
   position:absolute;
-  background-image: url(http://1.bp.blogspot.com/-8oHADm0XlWY/UV72I6qYX_I/AAAAAAAAD8U/83sdKrWjjRg/s1600/Dice.png);
+  background-image: url("./mainDice5.png");
   background-repeat:no-repeat;
   opacity:.75;
 }

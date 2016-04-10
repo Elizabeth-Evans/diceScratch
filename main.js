@@ -110,21 +110,21 @@ var timer5 = setInterval(showFive, 500);
 
 
 
-// $(".cup").click(function(){
-//     var div = $("div");
-//     div.animate({marginTop: '-40px'}, "slow");
-// });
+// press space bar to view dice
 $(window).keydown(function(e) {
     if (e.which === 32) {
-      $('.cup').animate({opacity:.4}, 10);
+      $('.cup').animate({opacity:.1}, 10);
     }
 });
+// returns to main view when space bar is released
 $(window).keyup(function(e) {
     if (e.which === 32) {
       $('.cup').animate({opacity:1}, 10);
     }
 });
 
+
+// cup that lifts and disapears
 $('.cup2').stop(true, true).delay(2100).animate({
      marginTop: -1000,
 
